@@ -21,9 +21,9 @@ const geistMono = Geist_Mono({
 // хувиргана. Google хайлт, Facebook share дээр энэ текст харагдана.
 // TODO: Нэр, тайлбараа өөрийн мэдээллээр солино уу
 export const metadata: Metadata = {
-  title: "Your Name — Software Developer",
+  title: "Amirda",
   description:
-    "Personal portfolio of Your Name, a software developer based in Ulaanbaatar, Mongolia.",
+    "Personal portfolio of Amirda, a software engineer based in Ulaanbaatar, Mongolia.",
 };
 
 // RootLayout — бүх хуудсыг ороодог хамгийн гадна талын бүрхүүл.
