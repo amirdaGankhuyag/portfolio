@@ -45,7 +45,6 @@ export const ui = {
       experience: "Ажлын туршлага",
     },
     projectLinks: { live: "Сайт", source: "Код" },
-    footer: { built: "Next.js & Tailwind CSS ашиглан бүтээв" },
   },
 } as const;
 
