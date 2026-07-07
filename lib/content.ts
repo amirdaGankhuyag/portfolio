@@ -28,7 +28,6 @@ export const ui = {
       experience: "Experience",
     },
     projectLinks: { live: "Live", source: "Source" },
-    footer: { built: "Built with Next.js & Tailwind CSS" },
   },
   mn: {
     nav: { projects: "Төслүүд", skills: "Ур чадвар", experience: "Туршлага" },
