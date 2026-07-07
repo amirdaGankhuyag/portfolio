@@ -2,12 +2,12 @@ export type Lang = "en" | "mn";
 
 // --- Хувийн мэдээлэл / Personal info ---
 export const profile = {
-  name: "Ганхуяг Амирда",
+  name: "Г. Амирда",
   nameEn: "Amirda Gankhuyag",
   email: "amirda899@gmail.com",
   github: "https://github.com/amirdaGankhuyag",
   linkedin: "https://www.linkedin.com/in/amirdagankhuyag",
-  location: { en: "Ulaanbaatar, Mongolia", mn: "Улаанбаатар, Монгол" },
+  location: { en: "Ulaanbaatar, Mongolia", mn: "Улаанбаатар" },
 };
 
 // --- Хэсэг бүрийн текст / UI copy ---
@@ -16,7 +16,7 @@ export const ui = {
     nav: { projects: "Projects", skills: "Skills", experience: "Experience" },
     hero: {
       greeting: "Hi, I'm",
-      role: "Software Developer",
+      role: "Software Engineer",
       intro:
         "I build simple, fast and reliable software. Welcome to my corner of the internet — here's what I've been working on.",
       contactBtn: "Get in touch",
@@ -34,7 +34,7 @@ export const ui = {
     nav: { projects: "Төслүүд", skills: "Ур чадвар", experience: "Туршлага" },
     hero: {
       greeting: "Сайн уу, би",
-      role: "Программ хөгжүүлэгч",
+      role: "Программ хангамжийн инженер",
       intro:
         "Би энгийн, хурдан, найдвартай программ хангамж бүтээдэг. Миний хийсэн ажлуудтай эндээс танилцаарай.",
       contactBtn: "Холбоо барих",
