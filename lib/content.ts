@@ -53,34 +53,23 @@ export const ui = {
 // --- Төслүүд / Projects (TODO: өөрийн төслүүдээр солино уу) ---
 export const projects = [
   {
-    title: "Project One",
+    title: "Legal Guide",
     description: {
-      en: "A web application that solves a real problem. Short one-or-two sentence description of what it does and why it matters.",
-      mn: "Бодит асуудал шийддэг веб аппликейшн. Юу хийдэг, ямар ач холбогдолтойг нэг-хоёр өгүүлбэрээр тайлбарлана.",
+      en: "A full-stack web app for finding legal service providers (law firms and lawyers) near you on an interactive map.",
+      mn: "Хуулийн үйлчилгээ үзүүлэгч байгууллага, хуульчдыг газрын зургаас хайж олох, харьцуулах, сэтгэгдэл үлдээх боломжтой бүрэн ажиллагаатай веб систем.",
     },
-    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
-    link: "https://example.com", // сайтын линк, байхгүй бол null
-    repo: "https://github.com/yourusername/project-one", // код, байхгүй бол null
-  },
-  {
-    title: "Project Two",
-    description: {
-      en: "A tool or library you built. What problem does it solve? Who is it for?",
-      mn: "Таны бүтээсэн хэрэгсэл эсвэл сан. Ямар асуудлыг шийддэг вэ? Хэнд зориулагдсан бэ?",
-    },
-    tech: ["Node.js", "PostgreSQL"],
-    link: null,
-    repo: "https://github.com/yourusername/project-two",
-  },
-  {
-    title: "Project Three",
-    description: {
-      en: "Another project — a mobile app, an API, an experiment. Keep descriptions short and concrete.",
-      mn: "Өөр нэг төсөл — мобайл апп, API, туршилт гэх мэт. Тайлбарыг товч, тодорхой бичээрэй.",
-    },
-    tech: ["React Native", "Firebase"],
-    link: null,
-    repo: null,
+    tech: [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB Atlas",
+      "Leaflet.js",
+      "JWT",
+      "Nodemailer",
+      "Google OAuth 2.0",
+    ],
+    link: "https://legal-guide-three.vercel.app", // сайтын линк, байхгүй бол null
+    repo: "https://github.com/amirdaGankhuyag/legal-guide", // код, байхгүй бол null
   },
 ];
 
@@ -88,7 +77,7 @@ export const projects = [
 export const skills = [
   {
     group: { en: "Languages", mn: "Хэлүүд" },
-    items: ["TypeScript", "JavaScript", "Python", "SQL"],
+    items: ["TypeScript", "JavaScript", "Java", "SQL"],
   },
   {
     group: { en: "Frameworks & Libraries", mn: "Фрэймворк, сангууд" },
@@ -96,16 +85,16 @@ export const skills = [
   },
   {
     group: { en: "Tools & Platforms", mn: "Хэрэгсэл, платформ" },
-    items: ["Git", "Docker", "PostgreSQL", "Vercel"],
+    items: ["Git", "Docker", "Vercel"],
   },
 ];
 
 // --- Ажлын туршлага / Experience (TODO: өөрийн туршлагаар солино уу) ---
 export const experience = [
   {
-    company: "Company Name",
-    role: { en: "Software Developer", mn: "Программ хөгжүүлэгч" },
-    period: { en: "2024 — Present", mn: "2024 — одоог хүртэл" },
+    company: "NetCapital Financial Group",
+    role: { en: "Frontend Developer", mn: "Frontend хөгжүүлэгч" },
+    period: { en: "2024.06 — 2024.09", mn: "2024.06 — 2024.09" },
     points: {
       en: [
         "What you built or improved, with concrete impact.",
@@ -115,15 +104,6 @@ export const experience = [
         "Юу бүтээж, сайжруулснаа үр дүнтэй нь бичнэ.",
         "Хариуцаж байсан технологи, систем.",
       ],
-    },
-  },
-  {
-    company: "Previous Company",
-    role: { en: "Junior Developer", mn: "Туслах хөгжүүлэгч" },
-    period: { en: "2022 — 2024", mn: "2022 — 2024" },
-    points: {
-      en: ["Key responsibility or achievement from this role."],
-      mn: ["Энэ ажлын гол үүрэг, амжилт."],
     },
   },
 ];
