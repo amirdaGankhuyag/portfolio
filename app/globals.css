@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* @theme — Tailwind 4-т тохиргоог tailwind.config.js биш, CSS дотор
+   хийдэг. Энд layout.tsx-ээс ирсэн фонтын хувьсагчдыг Tailwind-ийн
+   font-sans, font-mono class-уудтай холбож байна. */
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Цэсний линк дээр дарахад хэсэг рүү шууд "үсрэх" биш зөөлөн гүйлгэнэ */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Хэсэг рүү гүйлгэж очиход дээд талын sticky цэс контентыг
+   халхлахгүйн тулд зайг нь урьдчилан тооцно */
+section {
+  scroll-margin-top: 4rem;
+}
+
+/* Сайтын үндсэн өнгө. dark: угтвартай class-ууд хэрэглэгчийн
+   үйлдлийн системийн dark mode тохиргоог автоматаар дагадаг —
+   нэмэлт JavaScript огт хэрэггүй. */
+body {
+  @apply bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100;
+}
