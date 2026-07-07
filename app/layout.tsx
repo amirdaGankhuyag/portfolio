@@ -19,8 +19,10 @@ const geistMono = Geist_Mono({
 
 // metadata — Next.js үүнийг <head> доторх <title>, <meta> болгож
 // хувиргана. Google хайлт, Facebook share дээр энэ текст харагдана.
-// TODO: Нэр, тайлбараа өөрийн мэдээллээр солино уу
 export const metadata: Metadata = {
+  // metadataBase — сайтын жинхэнэ хаяг. Facebook, Twitter дээр share
+  // хийхэд зураг, линкүүд бүрэн (absolute) URL болж зөв харагдана.
+  metadataBase: new URL("https://amirda.site"),
   title: "Amirda",
   description:
     "Personal portfolio of Amirda, a software engineer based in Ulaanbaatar, Mongolia.",
