@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 // next/font — фонтыг build үед татаж өөрийн сервер дээрээс тараадаг тул
 // Google руу нэмэлт хүсэлт явахгүй, хуудас "үсрэлгүй" ачаалагдана.
@@ -42,7 +43,10 @@ export default function RootLayout({
     >
       {/* flex flex-col + main дээрх flex-1 хослол: контент багатай үед ч
           footer дэлгэцийн доод хэсэгт наалдаж байрлана */}
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
