@@ -19,7 +19,7 @@ export const ui = {
       greeting: "Hi, I'm",
       role: "Software Engineer",
       intro:
-        "I build simple, fast and reliable software. Welcome to my corner of the internet — here's what I've been working on.",
+        "Let’s build something great together. I am currently open to new career opportunities, freelance projects, and professional connections.",
       contactBtn: "Get in touch",
       githubBtn: "GitHub",
     },
@@ -36,7 +36,7 @@ export const ui = {
       greeting: "Сайн уу, би",
       role: "Программ хангамжийн инженер",
       intro:
-        "Би энгийн, хурдан, найдвартай программ хангамж бүтээдэг. Миний хийсэн ажлуудтай эндээс танилцаарай.",
+        "Гайхалтай зүйлсийг хамтдаа бүтээцгээе. Би одоогоор карьерын шинэ боломжууд, фриланс төслүүд болон мэргэжлийн хүрээнд танилцаж, холбоо тогтооход нээлттэй байна.",
       contactBtn: "Холбоо барих",
       githubBtn: "GitHub",
     },
@@ -96,12 +96,12 @@ export const experience = [
     period: { en: "2024.06 — 2024.09", mn: "2024.06 — 2024.09" },
     points: {
       en: [
-        "What you built or improved, with concrete impact.",
-        "A technology or system you owned.",
+        "Worked collaboratively in the frontend development team on the company's internal system.",
+        "NetCore",
       ],
       mn: [
-        "Юу бүтээж, сайжруулснаа үр дүнтэй нь бичнэ.",
-        "Хариуцаж байсан технологи, систем.",
+        "Байгууллагын дотоод систем дээр frontend хөгжүүлэлтийн багт оролцон хамтран ажилласан.",
+        "NetCore",
       ],
     },
   },
