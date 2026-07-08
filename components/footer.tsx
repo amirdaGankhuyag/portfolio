@@ -16,6 +16,12 @@ export function Footer() {
         </p>
         <div className="flex gap-4">
           <a
+            href={`mailto:${profile.x}`}
+            className="transition-colors hover:text-zinc-950 dark:hover:text-zinc-50"
+          >
+            X
+          </a>
+          <a
             href={`mailto:${profile.email}`}
             className="transition-colors hover:text-zinc-950 dark:hover:text-zinc-50"
           >

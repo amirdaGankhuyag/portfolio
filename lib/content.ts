@@ -7,6 +7,7 @@ export const profile = {
   email: "amirda899@gmail.com",
   github: "https://github.com/amirdaGankhuyag",
   linkedin: "https://www.linkedin.com/in/amirdagankhuyag",
+  x: "https://x.com/amirdaGankuyag",
   location: { en: "Ulaanbaatar, Mongolia", mn: "Улаанбаатар" },
 };
 
