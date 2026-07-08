@@ -2,8 +2,8 @@ export type Lang = "en" | "mn";
 
 // --- Хувийн мэдээлэл / Personal info ---
 export const profile = {
-  name: "Г. Амирда",
-  nameEn: "Amirda Gankhuyag",
+  name: "Амирда",
+  nameEn: "Amirda",
   email: "amirda899@gmail.com",
   github: "https://github.com/amirdaGankhuyag",
   linkedin: "https://www.linkedin.com/in/amirdagankhuyag",
