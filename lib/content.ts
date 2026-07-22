@@ -67,7 +67,7 @@ export const projects = [
       "Nodemailer",
       "Google OAuth 2.0",
     ],
-    link: "https://legal-guide-three.vercel.app", // сайтын линк, байхгүй бол null
+    link: "https://legalguide-mn.vercel.app", // сайтын линк, байхгүй бол null
     repo: "https://github.com/amirdaGankhuyag/legal-guide", // код, байхгүй бол null
   },
 ];
